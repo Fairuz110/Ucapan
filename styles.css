@@ -1,0 +1,62 @@
+/* Styling untuk seluruh halaman */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  background: radial-gradient(circle, #ffffff, #f3f3f3, #e5e5e5); /* Warna lebih terang */
+  overflow: hidden;
+  color: #333;
+}
+
+/* Container utama */
+.container {
+  text-align: center;
+  position: relative;
+}
+
+/* Kotak untuk teks */
+.text-box {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 30px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #333;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin: 0 0 10px 0;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 0;
+}
+
+/* Tombol */
+button {
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(90deg, #f48fb1, #f06292);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(240, 98, 146, 0.7), 0 0 30px rgba(240, 98, 146, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(240, 98, 146, 0.9), 0 0 40px rgba(240, 98, 146, 0.7);
+}
